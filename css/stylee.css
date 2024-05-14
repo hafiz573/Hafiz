@@ -1,0 +1,134 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1e1d1d;
+    background-image: url(./../img/kucing.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* font-size: ; */
+}
+
+#typed-text::after {
+    content: '|'; 
+    animation: blink 0.5s infinite alternate;
+    font-size: 1.5em;
+    font-weight: normal; 
+}
+
+@keyframes blink {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+ #header {
+        background-color: #404040;
+        color: #ffffff;
+        padding: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        background-size: 100px;
+        h1 {
+            color: white;
+            font-size: 1.5em;
+        }
+    } 
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+   /* background-color: #ffffff; */
+    border-radius: 8px;
+   /* box-shadow: 0 0 10px rgba(161, 50, 50, 0.116), 0;   */
+    line-height: 1.2;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.3); /*Warna latar belakang semi-transparan*/
+}
+
+.container:hover {
+    background-color: rgba(241, 241, 241, 0.473);
+    backdrop-filter: blur(5px); /* Efek blur untuk latar belakang */
+}
+
+.container li:hover {
+    transition: filter 0.3s ease; /* Delay transisi saat hover selama 0.3 detik */
+}
+
+h1, h2, h3 {
+    color: #000000;
+    text-align: center;
+}
+
+strong {
+    color: #000000;
+}
+
+p, li {
+    color: black
+    
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #000000;
+    margin: 20px 0;
+}
+
+
+
+.container img {
+    filter: blur(5px); /* Efek blur default */
+    transition: filter 0.5s ease; /* Transisi untuk efek blur */
+} 
+
+.container:hover img {
+    filter: none;
+}
+
+.container p,
+.container h3,
+.container hr,
+.container li {
+    filter: blur(2.5px);
+    transition: filter 0.5s ease;
+}
+
+
+
+.container:hover p,
+.container:hover h3,
+.container:hover hr,
+.container:hover li{
+    filter: none;
+}
+
+.copyright {
+    text-decoration: none;
+    color: #11ff00;
+    border-radius: 10px;
+    position: relative;
+}
+
+    /* Aturan untuk HandPhone */
+    @media only screen and (max-width: 600px) {
+        /* Aturan CSS untuk HandPhone */
+    }
+        
+    /* Aturan untuk Tablet */
+    @media only screen and (min-width: 601px) and (max-width: 900px) {
+        /* Aturan CSS untuk Tablet */
+    }
+        
+    /* Aturan untuk Desktop */
+    @media only screen and (min-width: 901px) {
+        /* Aturan CSS untuk Desktop */
+    }

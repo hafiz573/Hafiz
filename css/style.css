@@ -1,0 +1,53 @@
+body {
+    background-image: url(../img/rgb.jpg);
+}
+
+.button  {
+    padding: 10px 20px;
+    font-size: 8px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #00e1ff;
+}
+
+.button:active {
+    background-color: #00e1ff;
+    box-shadow: 0 5px #000000;
+    transform: translateY(4px);
+}
+
+/* .button {
+    background: rgb(51, 149, 116);
+    padding: auto;
+}*/
+
+.button2 {
+    padding: 10px 20px;
+    font-size: 8px;
+    background-color: white;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: #00e1ff;
+}
+
+.button2:active {
+    background-color: #00e1ff;
+    box-shadow: 0 5px #000000;
+    transform: translateY(4px);
+}
+
+/*.button2 {
+    background: rgb(51, 149, 116);
+    padding: auto;
+}*/

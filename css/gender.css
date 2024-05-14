@@ -1,0 +1,29 @@
+body {
+    background-image: url(./../img/code.png);
+    background-size: cover;
+    background-position: 40px;
+    height: 400px;
+    color: white;
+    font-family: sans-serif, arial;
+    background-repeat: repeat;
+    margin-left: 650px;
+}
+fieldset {
+    width: 270px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.color {
+    color: rgb(255, 255, 255)!important;
+}
+
+.result {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-right: 0px;
+    border-color: aliceblue;
+    margin-right: 50px!important;
+}
